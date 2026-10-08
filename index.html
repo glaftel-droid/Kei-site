@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>김남규의 개인 사이트</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Pretendard", "Noto Sans KR", sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 48px 40px;
+    max-width: 560px; width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  }
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; margin: 0 auto 20px;
+  }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  p.sub { color: rgba(255,255,255,0.7); margin-bottom: 28px; font-size: 15px; }
+  .links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .links a {
+    color: #fff; text-decoration: none;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 20px; border-radius: 999px; font-size: 14px;
+    transition: background 0.2s;
+  }
+  .links a:hover { background: rgba(255,255,255,0.25); }
+  footer { margin-top: 28px; font-size: 12px; color: rgba(255,255,255,0.45); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👋</div>
+    <h1>김남규의 개인 사이트</h1>
+    <p class="sub">Cloudflare Pages + GitHub로 운영하는 첫 페이지입니다</p>
+    <div class="links">
+      <a href="#">소개</a>
+      <a href="#">블로그</a>
+      <a href="#">연락하기</a>
+    </div>
+    <footer>© 2026 Namkyu Kim</footer>
+  </div>
+</body>
+</html>
